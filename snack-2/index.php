@@ -17,7 +17,7 @@ Stampare Nome, Cognome e la media dei voti di ogni alunno.*/
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snack 2</title>
 </head>
 
 <body>
@@ -41,7 +41,7 @@ Stampare Nome, Cognome e la media dei voti di ogni alunno.*/
         ],
     ];
 
-
+    //Giro nell'array di ipotetici studenti
     for ($i = 0; $i < count($hypotheticStudents); $i++) {
         /* calcolo la media dei voti */
         $averageGrades = array_sum($hypotheticStudents[$i]['vote']) / count($hypotheticStudents[$i]['vote']);
